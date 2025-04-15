@@ -1,0 +1,16 @@
+name: cadfm
+channels:
+  - defaults
+dependencies:
+  - python=3.10.10
+  - numpy
+  - pandas
+  - matplotlib
+  - colorama
+  - rasterio
+  - pyarrow
+  - pyswmm
+  - swmm-toolkit
+  - pip
+  - pip:
+      - hymo
